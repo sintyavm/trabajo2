@@ -1,0 +1,602 @@
+button {
+  position: relative;
+  padding: 15px 45px;
+  background: #FEC195;
+  font-size: 17px;
+  font-weight: 500;
+  color: #181818;
+  border: 1px solid #FEC195;
+  margin-left: 45%;
+  margin-top: -5%;
+  border-radius: 8px;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .2));
+}
+
+#logo{
+
+  width: 10%;
+  height: 15%;
+  margin-left: 5%;
+}
+
+button:hover {
+  border: 1px solid #f3b182;
+  background: linear-gradient(85deg, #FEC195, #fcc196, #fabd92, #fac097, #fac39c);
+  animation: wind 2s ease-in-out infinite;
+}
+
+@keyframes wind {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  0% {
+    background-position: 50% 100%;
+  }
+
+  0% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  transform-origin: 0 0;
+  transform: rotate(10deg);
+  transition: all .5s ease-in-out;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .3));
+}
+
+button:hover .icon-1 {
+  animation: slay-1 3s cubic-bezier(0.52, 0, 0.58, 1) infinite;
+  transform: rotate(10deg);
+}
+
+@keyframes slay-1 {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+.icon-2 {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 12px;
+  transform-origin: 50% 0;
+  transform: rotate(10deg);
+  transition: all 1s ease-in-out;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));
+}
+
+button:hover .icon-2 {
+  animation: slay-2 3s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
+  transform: rotate(0);
+}
+
+@keyframes slay-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.icon-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  transform-origin: 50% 0;
+  transform: rotate(-5deg);
+  transition: all 1s ease-in-out;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, .5));
+}
+
+button:hover .icon-3 {
+  animation: slay-3 2s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
+  transform: rotate(0);
+}
+
+@keyframes slay-3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.cjaTortas{
+
+display: flex;
+}
+
+.botonpedido{
+
+margin-left: 40%;
+margin-top: 5%;
+}
+
+.h2{
+
+margin-left: 3%;
+margin-top: 15%;
+margin-bottom: 15%;
+/* background-color: aqua; */
+}
+
+#targeta1{
+
+margin-left: 5%;
+}
+
+#targeta2{
+
+margin-left: 5%;
+}
+
+.tortas{
+  margin-left: 43%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.cjaTortas{
+  display: flex;
+}
+
+.cjaTortas div{
+  margin-left: 5%;
+   margin-bottom: 5%;
+}
+
+.cjaTortas2{
+  display: flex;
+}
+
+.cjaTortas2 div{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.cjaTortas3 div{
+  margin-left: 5%;
+  margin-bottom: 7%;
+}
+.cjaTortas3{
+  display: flex;
+  
+}
+ 
+.bebidas{
+  margin-left: 47%;
+  margin-top: 3%;
+}
+
+.cjabebidas{
+  display: flex;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.cjabebidas2{
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.cjabebidas3{
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.helados{
+  display: flex;
+}
+
+.helados div{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.helados2{
+  display: flex;
+}
+
+.helados2 div{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.helados3{
+  display: flex;
+}
+
+.helados3 div{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.helados4{
+  display: flex;
+}
+
+.helados4 div{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.ball {
+  position: relative;
+  bottom: 50px;
+  left: calc(100% - 20px);
+  width: 50px;
+  height: 50px;
+  background: #a27968;
+  border-radius: 50%;
+  animation: ball-move8234 3s ease-in-out 1s infinite alternate;
+}
+
+.ball::after {
+  position: absolute;
+  content: '';
+  top: 25px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.bar {
+  width: 200px;
+  height: 12.5px;
+  background: #FFDAAF;
+  border-radius: 30px;
+  transform: rotate(-15deg);
+  animation: up-down6123 3s ease-in-out 1s infinite alternate;
+  margin-left: 45%;
+}
+
+@keyframes up-down6123 {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes ball-move8234 {
+  from {
+    left: calc(100% - 40px);
+    transform: rotate(360deg);
+  }
+
+  to {
+    left: calc(0% - 20px);
+    transform: rotate(0deg);
+  }
+}
+
+
+.ball1 {
+  position: relative;
+  bottom: 50px;
+  left: calc(100% - 20px);
+  width: 50px;
+  height: 50px;
+  background: #a27968;
+  border-radius: 50%;
+  animation: ball-move8234 3s ease-in-out 1s infinite alternate;
+}
+
+.ball1::after {
+  position: absolute;
+  content: '';
+  top: 25px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.bar1 {
+  width: 200px;
+  height: 12.5px;
+  background: #FFDAAF;
+  border-radius: 30px;
+  transform: rotate(-15deg);
+  animation: up-down6123 3s ease-in-out 1s infinite alternate;
+  margin-left: 45%;
+  margin-top: 7%;
+}
+
+@keyframes up-down6123 {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes ball-move8234 {
+  from {
+    left: calc(100% - 40px);
+    transform: rotate(360deg);
+  }
+
+  to {
+    left: calc(0% - 20px);
+    transform: rotate(0deg);
+  }
+}
+
+
+.ball2 {
+  position: relative;
+  bottom: 50px;
+  left: calc(100% - 20px);
+  width: 50px;
+  height: 50px;
+  background: #a27968;
+  border-radius: 50%;
+  animation: ball-move8234 3s ease-in-out 1s infinite alternate;
+}
+
+.ball::after {
+  position: absolute;
+  content: '';
+  top: 25px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.bar3 {
+  width: 200px;
+  height: 12.5px;
+  background: #FFDAAF;
+  border-radius: 30px;
+  transform: rotate(-15deg);
+  animation: up-down6123 3s ease-in-out 1s infinite alternate;
+  margin-left: 45%;
+}
+
+@keyframes up-down6123 {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes ball-move8234 {
+  from {
+    left: calc(100% - 40px);
+    transform: rotate(360deg);
+  }
+
+  to {
+    left: calc(0% - 20px);
+    transform: rotate(0deg);
+  }
+}
+
+.heladosh1{
+  margin-left: 47%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.ball5 {
+  position: relative;
+  bottom: 50px;
+  left: calc(100% - 20px);
+  width: 50px;
+  height: 50px;
+  background: #a27968;
+  border-radius: 50%;
+  animation: ball-move8234 3s ease-in-out 1s infinite alternate;
+}
+
+.ball::after {
+  position: absolute;
+  content: '';
+  top: 25px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.bar5 {
+  width: 200px;
+  height: 12.5px;
+  background: #FFDAAF;
+  border-radius: 30px;
+  transform: rotate(-15deg);
+  animation: up-down6123 3s ease-in-out 1s infinite alternate;
+  margin-left: 45%;
+}
+
+@keyframes up-down6123 {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes ball-move8234 {
+  from {
+    left: calc(100% - 40px);
+    transform: rotate(360deg);
+  }
+
+  to {
+    left: calc(0% - 20px);
+    transform: rotate(0deg);
+  }
+}
+
+.comidarapida{
+  margin-left: 43%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.cjaComida{
+
+  display: flex;
+  margin-left: -1%;
+  
+}
+
+#tar1{
+
+  margin-left: 3%;
+}
+
+#tar2{
+
+  margin-left: 3%;
+}
+
+#tar3{
+
+  margin-left: 3%;
+}
+
+#tar4{
+
+  margin-left: 3%;
+}
+
+.cjaComida2{
+
+  display: flex;
+  margin-left: -1%;
+  
+}
+
+#tar5{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#tar6{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#tar7{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.cjaComida3{
+
+  display: flex;
+  margin-left: -1%;
+  
+}
+
+#tar8{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#tar9{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#tar10{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#tar11{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.cjaComida4{
+
+  display: flex;
+  margin-left: -1%;
+  
+}
+
+#tar12{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+#tar13{
+
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.cjaComida{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.cjaComida2{
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+.cjaComida3{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.cjaComida4{
+  margin-left: 30%;
+  margin-bottom: 5%;
+  
+}
